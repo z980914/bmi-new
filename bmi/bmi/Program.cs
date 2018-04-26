@@ -16,8 +16,7 @@ namespace ConsoleApplication1
             Console.WriteLine("↾  bmi  ⇃");
             Console.WriteLine("↾       ⇃");
             Console.WriteLine("◄◄◄◄◄◄◄◄◄");
-
-
+            
             //字体颜色
             Console.WriteLine("请输入身高（米）");
 
@@ -47,13 +46,15 @@ namespace ConsoleApplication1
                 Console.WriteLine("异常");
 
             //判断是否异常
-
             Console.WriteLine("按A检查是否免疫");
             
+            //显示是否免疫句子
             while (true)
             {
                 ConsoleKeyInfo a = Console.ReadKey();
                 if (a.Key == ConsoleKey.A)
+                    
+              //按A健执行以下程式
                 {
                     if (bmi < 16.5)
                     {
@@ -69,11 +70,7 @@ namespace ConsoleApplication1
             }
 
                 //进行兵役判断
-               
-              
-                    Console.ReadLine();
-
-                
+                 Console.ReadLine( ); 
             }
         }
     }
